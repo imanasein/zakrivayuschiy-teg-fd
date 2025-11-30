@@ -1,23 +1,35 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --inter: "Inter-Variable";
-    --pressstart2p: "Press Start 2P";
-    --regular: 410;
-    --bold: 715;
-    --main-color: #000; /* основной цвет заголовков и параграфов в карточках */
-    --main-color-negative: #fff; /* цвет текста и svg иконок противоположный основному */
-    --text-shadow-color: #fff;
-    --text-font-size: 18px;
-    --card-bg: #fff; /* цвет фона карточек  */
-    --background-image: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
-        repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
-        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a); /* проверить условия градиента ???? */ 
-    --logo-height: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem); /* высота символов логотипа шапки */
-    --main-title: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem); /* высота букв главного заголовка */ 
-    --content-inline-size: clamp(375px, 260.56px + 30.52vw, 700px);  /* вычесленно относительно изменения ширины экрана просмотра */
-    --container-padding-block: clamp(122px, 103.79px + 2.73vw, 130px);  /* вычесленно относительно изменения высоты экрана просмотра */
-    --container-padding-inline: clamp(16px, -21.50px + 10.00vw, 122.5px); /* вычесленно относительно изменения ширины экрана просмотра */
-    --heart-contour-color: #000;  /* цвет заливки контура иконки сердца */
-    --animation-fill-color: #FF0000; /* цвет заливки искр иконки сердца */
-    --heart-main-body-color: #000;  /* цвет заливки тела сердца в состоянии ховер */
-} 
+  --inter: "Inter-Variable";
+  --pressstart2p: "Press Start 2P";
+  --regular: 410;
+  --bold: 715;
+  --main-color: #000; /* основной цвет заголовков и параграфов в карточках */
+  --main-color-negative: #fff; /* цвет текста и svg иконок противоположный основному */
+  --text-shadow-color: #fff;
+  --text-font-size: 18px;
+  --card-bg: #fff; /* цвет фона карточек  */
+  --background-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --logo-height: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --main-title: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --content-inline-size: clamp(375px, 260.56px + 30.52vw, 700px);
+  --container-padding-block: clamp(122px, 119.18px + 0.75vw, 130px);
+  --container-padding-inline: clamp(16px, -21.5px + 10vw, 122.5px);
+  --heart-contour-color: #000; /* цвет заливки контура иконки сердца */
+  --animation-fill-color: #ff0000; /* цвет заливки искр иконки сердца */
+  --heart-main-body-color: #000; /* цвет заливки тела сердца в состоянии ховер */
+}
