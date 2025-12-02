@@ -1,1 +1,1 @@
-https://imanasein.github.io/zakrivayuschiy-teg-fd/
+https://imanasein.github.io/zakrivayuschiy-teg-fd/index.html
