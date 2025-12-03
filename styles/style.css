@@ -42,7 +42,7 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    margin-block: 100px 98px;
+    margin-block: 98px 98px;
     font-family: var(--accent-font, monospace), monospace;
     font-weight: 400;
     text-transform: uppercase;
@@ -291,6 +291,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
+    background-color: transparent;
 }
 
 .floppy-image {
